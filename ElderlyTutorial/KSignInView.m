@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 LeafShadow. All rights reserved.
 //
 
-#import "KViewController.h"
+#import "KSignInView.h"
 
-@interface KViewController ()
+@interface KSignInView ()
 
 @end
 
-@implementation KViewController
+@implementation KSignInView
 
 - (void)viewDidLoad
 {

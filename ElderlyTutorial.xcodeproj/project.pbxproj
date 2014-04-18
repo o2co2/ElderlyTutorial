@@ -15,13 +15,16 @@
 		F25434FB18FF88390089DA28 /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25434FA18FF88390089DA28 /* KAppDelegate.m */; };
 		F25434FE18FF88390089DA28 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25434FC18FF88390089DA28 /* Main_iPhone.storyboard */; };
 		F254350118FF88390089DA28 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25434FF18FF88390089DA28 /* Main_iPad.storyboard */; };
-		F254350418FF88390089DA28 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F254350318FF88390089DA28 /* KViewController.m */; };
+		F254350418FF88390089DA28 /* KSignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = F254350318FF88390089DA28 /* KSignInView.m */; };
 		F254350618FF88390089DA28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F254350518FF88390089DA28 /* Images.xcassets */; };
 		F254350D18FF88390089DA28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F254350C18FF88390089DA28 /* XCTest.framework */; };
 		F254350E18FF88390089DA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25434EA18FF88390089DA28 /* Foundation.framework */; };
 		F254350F18FF88390089DA28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25434EE18FF88390089DA28 /* UIKit.framework */; };
 		F254351718FF88390089DA28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F254351518FF88390089DA28 /* InfoPlist.strings */; };
 		F254351918FF88390089DA28 /* ElderlyTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F254351818FF88390089DA28 /* ElderlyTutorialTests.m */; };
+		F254352518FF8AFD0089DA28 /* KAppsList.m in Sources */ = {isa = PBXBuildFile; fileRef = F254352418FF8AFD0089DA28 /* KAppsList.m */; };
+		F254352818FF8B630089DA28 /* KFunctionList.m in Sources */ = {isa = PBXBuildFile; fileRef = F254352718FF8B630089DA28 /* KFunctionList.m */; };
+		F254352B18FF8BD80089DA28 /* KShowTutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = F254352A18FF8BD80089DA28 /* KShowTutorial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +50,20 @@
 		F25434FA18FF88390089DA28 /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
 		F25434FD18FF88390089DA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		F254350018FF88390089DA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		F254350218FF88390089DA28 /* KViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
-		F254350318FF88390089DA28 /* KViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		F254350218FF88390089DA28 /* KSignInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSignInView.h; sourceTree = "<group>"; };
+		F254350318FF88390089DA28 /* KSignInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSignInView.m; sourceTree = "<group>"; };
 		F254350518FF88390089DA28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F254350B18FF88390089DA28 /* ElderlyTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElderlyTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F254350C18FF88390089DA28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F254351418FF88390089DA28 /* ElderlyTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElderlyTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		F254351618FF88390089DA28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F254351818FF88390089DA28 /* ElderlyTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElderlyTutorialTests.m; sourceTree = "<group>"; };
+		F254352318FF8AFD0089DA28 /* KAppsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAppsList.h; path = view/KAppsList.h; sourceTree = "<group>"; };
+		F254352418FF8AFD0089DA28 /* KAppsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAppsList.m; path = view/KAppsList.m; sourceTree = "<group>"; };
+		F254352618FF8B630089DA28 /* KFunctionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KFunctionList.h; path = view/KFunctionList.h; sourceTree = "<group>"; };
+		F254352718FF8B630089DA28 /* KFunctionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KFunctionList.m; path = view/KFunctionList.m; sourceTree = "<group>"; };
+		F254352918FF8BD80089DA28 /* KShowTutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KShowTutorial.h; path = view/KShowTutorial.h; sourceTree = "<group>"; };
+		F254352A18FF8BD80089DA28 /* KShowTutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KShowTutorial.m; path = view/KShowTutorial.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +127,7 @@
 				F25434FA18FF88390089DA28 /* KAppDelegate.m */,
 				F25434FC18FF88390089DA28 /* Main_iPhone.storyboard */,
 				F25434FF18FF88390089DA28 /* Main_iPad.storyboard */,
-				F254350218FF88390089DA28 /* KViewController.h */,
-				F254350318FF88390089DA28 /* KViewController.m */,
+				F254352218FF8A9F0089DA28 /* view */,
 				F254350518FF88390089DA28 /* Images.xcassets */,
 				F25434F118FF88390089DA28 /* Supporting Files */,
 			);
@@ -153,6 +161,21 @@
 				F254351518FF88390089DA28 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F254352218FF8A9F0089DA28 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F254350218FF88390089DA28 /* KSignInView.h */,
+				F254350318FF88390089DA28 /* KSignInView.m */,
+				F254352318FF8AFD0089DA28 /* KAppsList.h */,
+				F254352418FF8AFD0089DA28 /* KAppsList.m */,
+				F254352618FF8B630089DA28 /* KFunctionList.h */,
+				F254352718FF8B630089DA28 /* KFunctionList.m */,
+				F254352918FF8BD80089DA28 /* KShowTutorial.h */,
+				F254352A18FF8BD80089DA28 /* KShowTutorial.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F254350418FF88390089DA28 /* KViewController.m in Sources */,
+				F254350418FF88390089DA28 /* KSignInView.m in Sources */,
+				F254352518FF8AFD0089DA28 /* KAppsList.m in Sources */,
+				F254352B18FF8BD80089DA28 /* KShowTutorial.m in Sources */,
 				F25434FB18FF88390089DA28 /* KAppDelegate.m in Sources */,
 				F25434F718FF88390089DA28 /* main.m in Sources */,
+				F254352818FF8B630089DA28 /* KFunctionList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
