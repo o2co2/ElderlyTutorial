@@ -36,7 +36,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    funts = [NSArray arrayWithObjects:@"功能一", nil];
+    funts = [NSArray arrayWithObjects:@"功能一",@"功能二",@"功能三", nil];
 }
 
 - (void)didReceiveMemoryWarning
