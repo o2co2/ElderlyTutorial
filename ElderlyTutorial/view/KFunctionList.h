@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KFunctionList : UITableViewController
+@interface KFunctionList : UITableViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end
