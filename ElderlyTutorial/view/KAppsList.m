@@ -36,7 +36,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    apps = [NSArray arrayWithObjects:@"微信",@"QQ",@"iphone手机",@"新浪微博", nil];
+    apps = [NSArray arrayWithObjects:@"微信",@"QQ",@"iphone手机",@"新浪微博",@"短信", nil];
 }
 
 - (void)didReceiveMemoryWarning
