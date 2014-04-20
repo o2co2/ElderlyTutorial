@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E49BAA91903F5E100B555C7 /* KModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E49BAA81903F5E100B555C7 /* KModel.m */; };
 		F25434EB18FF88390089DA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25434EA18FF88390089DA28 /* Foundation.framework */; };
 		F25434ED18FF88390089DA28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25434EC18FF88390089DA28 /* CoreGraphics.framework */; };
 		F25434EF18FF88390089DA28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25434EE18FF88390089DA28 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E49BAA71903F5E100B555C7 /* KModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KModel.h; path = model/KModel.h; sourceTree = "<group>"; };
+		1E49BAA81903F5E100B555C7 /* KModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KModel.m; path = model/KModel.m; sourceTree = "<group>"; };
 		F25434E718FF88390089DA28 /* ElderlyTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElderlyTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25434EA18FF88390089DA28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F25434EC18FF88390089DA28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E49BAA61903F55100B555C7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1E49BAA71903F5E100B555C7 /* KModel.h */,
+				1E49BAA81903F5E100B555C7 /* KModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		F25434DE18FF88390089DA28 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 		F25434F018FF88390089DA28 /* ElderlyTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1E49BAA61903F55100B555C7 /* model */,
 				F25434F918FF88390089DA28 /* KAppDelegate.h */,
 				F25434FA18FF88390089DA28 /* KAppDelegate.m */,
 				F25434FC18FF88390089DA28 /* Main_iPhone.storyboard */,
@@ -281,6 +294,7 @@
 				F254352518FF8AFD0089DA28 /* KAppsList.m in Sources */,
 				F254352B18FF8BD80089DA28 /* KShowTutorial.m in Sources */,
 				F25434FB18FF88390089DA28 /* KAppDelegate.m in Sources */,
+				1E49BAA91903F5E100B555C7 /* KModel.m in Sources */,
 				F25434F718FF88390089DA28 /* main.m in Sources */,
 				F254352818FF8B630089DA28 /* KFunctionList.m in Sources */,
 			);
@@ -497,6 +511,7 @@
 				F254351E18FF88390089DA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F254351F18FF88390089DA28 /* Build configuration list for PBXNativeTarget "ElderlyTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +520,7 @@
 				F254352118FF88390089DA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
